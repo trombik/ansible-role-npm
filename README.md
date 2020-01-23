@@ -8,8 +8,8 @@
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `npm_package` | | `{{ __npm_package }}` |
-| `npm_extra_packages` | | `[]` |
+| `npm_package` | Name of package | `{{ __npm_package }}` |
+| `npm_extra_packages` | List of extra packages to install | `[]` |
 
 ## Debian
 
