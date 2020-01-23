@@ -1,0 +1,11 @@
+---
+
+- name: Install npm_extra_packages
+  apt:
+    name: "{{ npm_extra_packages }}"
+    state: present
+
+- name: Install npm_package
+  apt:
+    name: "{{ npm_package }}"
+    state: present

@@ -1,0 +1,11 @@
+---
+
+- name: Install npm_extra_packages
+  openbsd_pkg:
+    name: "{{ npm_extra_packages }}"
+    state: present
+
+- name: Install npm_package
+  openbsd_pkg:
+    name: "{{ npm_package }}"
+    state: present

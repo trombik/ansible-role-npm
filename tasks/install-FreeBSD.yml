@@ -1,0 +1,11 @@
+---
+
+- name: Install npm_extra_packages
+  pkgng:
+    name: "{{ npm_extra_packages }}"
+    state: present
+
+- name: Install npm_package
+  pkgng:
+    name: "{{ npm_package }}"
+    state: present

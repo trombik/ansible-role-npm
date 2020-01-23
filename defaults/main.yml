@@ -1,0 +1,4 @@
+---
+
+npm_package: "{{ __npm_package }}"
+npm_extra_packages: []

@@ -1,0 +1,11 @@
+---
+
+- name: Install npm_extra_packages
+  yum:
+    name: "{{ npm_extra_packages }}"
+    state: present
+
+- name: Install npm_package
+  yum:
+    name: "{{ npm_package }}"
+    state: present
